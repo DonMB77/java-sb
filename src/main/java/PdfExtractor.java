@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class PdfExtractor {
 
-    String text;
-    File file;
+    private String text;
+    private File file;
 
     public PdfExtractor() throws IOException {
         file = new File("Testdata_Invoices.pdf");
